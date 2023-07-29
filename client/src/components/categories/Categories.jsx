@@ -87,7 +87,7 @@ const Categories = () => {
                     </div>
                     <h4>{blog?.title}</h4>
                     <p className={classes.blogDesc}>
-                      {blog?.desc}
+                    
                     </p>
                     <div className={classes.authorAndCreatedAt}>
                       <span><span>Author:</span> {blog?.userId?.username}</span>
